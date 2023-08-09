@@ -1,4 +1,6 @@
 function firstWord(s) {
+  s = s.trim(); // Remove leading and trailing spaces
+  
   if (s === "" || !s.includes(" ")) {
     return s;
   }
